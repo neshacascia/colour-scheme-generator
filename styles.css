@@ -36,7 +36,7 @@ body {
   border: 0.5px solid #d1d5db;
 }
 
-#colour-harmony {
+#colour-scheme {
   color: #374151;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -79,15 +79,6 @@ body {
   height: 100%;
 }
 
-#hex-footer {
-  background: #fff;
-  width: 550px;
-  height: 46px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 p {
   color: #2b283a;
   font-weight: 500;
@@ -96,22 +87,22 @@ p {
 }
 
 /* Default Colours */
-#colour-hex-one {
+#colour-0 {
   background: #f55a5a;
 }
 
-#colour-hex-two {
+#colour-1 {
   background: #2b283a;
 }
 
-#colour-hex-three {
+#colour-2 {
   background: #fbf3ab;
 }
 
-#colour-hex-four {
+#colour-3 {
   background: #aad1b6;
 }
 
-#colour-hex-five {
+#colour-4 {
   background: #a626d3;
 }
