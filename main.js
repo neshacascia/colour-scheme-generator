@@ -14,9 +14,9 @@ function getColourScheme() {
     .then(response => response.json())
     .then(results => {
       for (let i = 0; i < 5; i++) {
-        document.getElementById(`colour-${i}`).style.background =
+        document.querySelector(`#colour-${i}`).style.background =
           results.colors[i].hex.value;
-        document.getElementById(`hex-value-${i}`).textContent =
+        document.querySelector(`#hex-value-${i}`).textContent =
           results.colors[i].hex.value;
       }
     });
