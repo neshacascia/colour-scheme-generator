@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Colour Scheme Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="selection-container">
+            <input id="colour-picker" type="color" value="#F55A5A">
+            <select id="colour-harmony">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome Dark</option>
+                <option value="monochrome-light">Monochrome Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="get-colour-scheme">Get colour scheme</button>
+        </div>
+
+        <div id="display-colours">
+            <div class="colour-parent">
+                <div id="colour-hex-one" class="colour-box"></div>
+                <p id="colour-text-one">#F55A5A</p>
+            </div>
+            
+            <div class="colour-parent">
+                <div id="colour-hex-two" class="colour-box"></div>
+                <p id="colour-text-two">#2B283A</p>
+            </div>
+
+            <div class="colour-parent">
+                <div id="colour-hex-three" class="colour-box"></div>
+                <p id="colour-text-three">#FBF3AB</p>
+            </div>
+            
+            <div class="colour-parent">
+                <div id="colour-hex-four" class="colour-box"></div>
+                <p id="colour-text-four">#AAD1B6</p>
+            </div>
+            
+            <div class="colour-parent">
+                <div id="colour-hex-five" class="colour-box"></div>
+                <p id="colour-text-five">#A626D3</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
